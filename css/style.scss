@@ -1,0 +1,98 @@
+body{
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    font-size:.14rem;
+}
+.header{
+    height:.44rem;
+    line-height:.44rem;
+    background:#393a3f;
+    color:#fff;
+    font-size:.16rem;
+    position:relative;
+    a{
+        color:#fff;
+        position:absolute;
+    }
+    a:first-of-type{
+        left:.15rem;
+    }
+    a:last-of-type{
+        right:.15rem;
+    }
+    p{
+       padding-left:15%;
+    }
+}
+.content{
+    -webkit-flex:1;
+    width:100%;
+    background:#818d9b;
+    position:relative;
+    .dialog{
+        position:absolute;
+        top:0;
+        right:0;
+        left:0;
+        bottom:0;
+        background:#fff;
+        width:3.31rem;
+        height:4.23rem;
+        margin:auto;
+        border-radius:3px;
+        .head{
+            width:1.6rem;
+            height:.8rem;
+            margin:.2rem auto;
+            
+            img{
+                display:block;
+                width:1.6rem;
+                height:.65rem;
+            }
+            p{
+                font-size:.18rem;
+                text-align:center;
+                padding-top:.1rem;
+            }
+        }
+        .forms{
+//          background:red;
+            height:1rem;
+            margin-top:.5rem;
+            .tel,.pwd{
+                border-bottom:1px solid #ccc;
+                width:90%;
+                height:.51rem;
+                margin:auto;
+                
+                img{
+                    width:.14rem;
+                    height:.25rem;
+                    padding-left:.16rem;
+                    padding-top:.2rem;
+                    vertical-align: bottom;
+                }
+                input{
+                    border:none;
+                    padding-left:.1rem;
+                }
+            }
+        }
+        .bum{
+            width:90%;
+            height:.42rem;
+            line-height:.42rem;
+            text-align: center;
+            background:#2fba77;
+            color:#fff;
+            margin:.4rem auto;
+            border-radius:3px;
+        }
+    }
+    
+}
